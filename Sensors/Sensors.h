@@ -160,6 +160,8 @@ namespace Sensors {
     
     // reset the position to zero.
     void zero() {_pos = 0;}
+
+    int pos() {return _pos;}
   };
 
   /*******

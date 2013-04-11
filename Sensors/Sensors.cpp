@@ -129,10 +129,9 @@ namespace Sensors {
   ***/
 #define NO_DESTINATION -1
 
-  /***
-      Stop and check if we've reached our destination.
-      Returns true if we have.
-  ***/
+
+  //  Stop and check if we've reached our destination.
+  //  Returns true if we have.
   bool StepMotor::checkForDestination() {
     // Turn the current winding off.  This is because the motor on my current 
     // project pulls 1.5A per winding, which will strain even a beefy power supply.
